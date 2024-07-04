@@ -18,5 +18,8 @@
   "description": "",
   "devDependencies": {
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "morgan": "^1.10.0"
   }
 }
