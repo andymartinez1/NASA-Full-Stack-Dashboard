@@ -10,14 +10,15 @@
     "client": "npm start --prefix client",
     "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
     "deploy": "npm run build --prefix client && npm start --prefix server",
-    "test": "npm run test --prefix server && npm run test --prefix client"
+    "test": "npm test --prefix server && npm test --prefix client"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "jest": "^29.7.0"
   },
   "dependencies": {
     "morgan": "^1.10.0"
