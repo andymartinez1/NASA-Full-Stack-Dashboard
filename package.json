@@ -13,9 +13,9 @@
     "test": "npm test --prefix server && npm test --prefix client"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrew Martinez",
   "license": "ISC",
-  "description": "",
+  "description": "NASA mission launch simulator",
   "devDependencies": {
     "concurrently": "^8.2.2",
     "jest": "^29.7.0"
