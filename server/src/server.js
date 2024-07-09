@@ -7,6 +7,7 @@ const { loadPlanetsData } = require("./models/planets.model");
 
 const PORT = process.env.PORT || 8000;
 
+// For testing only. These credentials will be changed and hidden.
 const MONGO_URL =
   "mongodb+srv://andy:tmWCeMJ4CK4iGWos@nasa-cluster.ilbgsxp.mongodb.net/nasa?retryWrites=true&w=majority&appName=NASA-Cluster";
 

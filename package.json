@@ -9,7 +9,7 @@
     "server": "npm start --prefix server",
     "client": "npm start --prefix client",
     "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
-    "deploy": "npm run build --prefix client && npm start --prefix server",
+    "deploy": "npm run build --prefix client",
     "test": "npm test --prefix server && npm test --prefix client"
   },
   "keywords": [],
